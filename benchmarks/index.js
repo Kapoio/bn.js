@@ -436,4 +436,10 @@ add('bitLength', {
   }
 });
 
+add('toArray', {
+  'bn.js': function () {
+    fixture.a1j.toArray();
+  }
+});
+
 start();
